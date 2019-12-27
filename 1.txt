@@ -1,0 +1,46 @@
+Public class calculator 
+{
+    /*Public static void main(String[] args)
+    {
+        System.debug('Addition of 10 & 5 :' +add());
+        System.debug('Substraction of 10 & 5 :' +substract());
+        System.debug('Multiplication of 10 & 5 :' +multiply());
+        System.debug('Division of 10 & 5 :' +division());
+    }*/
+    Public integer add()
+    {
+        integer x,y,z;
+        x=10;y=5;
+        z=x+y;
+        system.debug(z);
+        return z;
+    }
+    Public static integer substract()
+    {
+        integer x1,y1,z1;
+        x1=10;y1=5;
+        z1=x1-y1;
+        return z1;
+    }
+    Public static integer multiply()
+    {
+        integer x2,y2,z2;
+        x2=10;y2=5;
+        z2=x2*y2;
+        return z2;
+    }
+    Public static integer division()
+    {
+        integer x3,y3,z3;
+        x3=10;y3=5;
+        z3=x3/y3;
+        return z3;
+    }
+}
+
+/*
+System.debug('Addition of 10 & 5:' + calculator.add());
+System.debug('Substraction of 10 & 5:' + calculator.substract());
+System.debug('Multiplication of 10 & 5:' + calculator.multiply());
+System.debug('Division of 10 & 5:' + calculator.division()); 
+*/
